@@ -1,9 +1,9 @@
-import Hero from '@/components/sections/Hero'
-import ProblemSolution from '@/components/sections/ProblemSolution'
-import Features from '@/components/sections/Features'
-import HowItWorks from '@/components/sections/HowItWorks'
-import Solutions from '@/components/sections/Solutions'
-import Waitlist from '@/components/sections/Waitlist'
+import Hero from "@/components/sections/Hero";
+import ProblemSolution from "@/components/sections/ProblemSolution";
+import Features from "@/components/sections/Features";
+import HowItWorks from "@/components/sections/HowItWorks";
+import Solutions from "@/components/sections/Solutions";
+import Waitlist from "@/components/sections/Waitlist";
 
 export default function Home() {
   return (
@@ -15,5 +15,5 @@ export default function Home() {
       <Solutions />
       <Waitlist />
     </>
-  )
+  );
 }
