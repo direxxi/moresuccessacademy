@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import Solutions from '@/components/sections/Solutions'
+import { motion } from "framer-motion";
+import Solutions from "@/components/sections/Solutions";
 
 export default function SolutionsPage() {
   return (
@@ -19,8 +19,9 @@ export default function SolutionsPage() {
               Tailored Learning <span className="gradient-text">Solutions</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              From career advancement to academic excellence, we offer comprehensive 
-              learning pathways designed for your specific goals and aspirations.
+              From career advancement to academic excellence, we offer
+              comprehensive learning pathways designed for your specific goals
+              and aspirations.
             </p>
           </motion.div>
         </div>
@@ -44,7 +45,7 @@ export default function SolutionsPage() {
                 Need a Custom Solution?
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                We work with organizations to create tailored learning programs 
+                We work with organizations to create tailored learning programs
                 that address specific skill gaps and business objectives.
               </p>
               <a
@@ -58,5 +59,5 @@ export default function SolutionsPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }
